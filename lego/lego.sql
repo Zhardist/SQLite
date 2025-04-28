@@ -41,7 +41,7 @@
     SUM(num_parts) 
  FROM 
     lego_set
-WHERE year < 2020
+WHERE year < 2000
  GROUP BY year
  HAVING COUNT (set_num) > 1000 
  ORDER BY year DESC;
